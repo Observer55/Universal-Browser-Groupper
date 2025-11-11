@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "List All Tabs Example",
+  "version": "1.0",
+  "description": "Lists all open tabs across windows in a popup",
+  "permissions": [
+    "tabs",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Show tabs"
+  }
+}
