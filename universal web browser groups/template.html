@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test2</title>
+</head>
+<body>
+    <p>This tab should be automatically closed.</p>
+
+<script type="text/javascript">
+    const urls = [] // For example ["http://example.com/", "https://www.youtube.com/"]
+
+    for (let i = 0; i < urls.length; i++) {
+        window.open(urls[i])
+    }
+
+    window.close()
+</script>
+
+</body>
+</html>
